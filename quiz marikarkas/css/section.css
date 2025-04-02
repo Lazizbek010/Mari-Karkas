@@ -7005,38 +7005,38 @@ form.wpcf7-form.cf7mls_reviewing:after {
 .cf7mls-btns {
     overflow: hidden;
     width: 100%;
-    display: block !important
+    display: block !important;
 }
 
 .cf7mls_progress_bar_percent_wrap {
     float: left;
     width: 100%;
-    margin-right: 8%
+    margin-right: 8%;
 }
 
 .cf7mls-btns .cf7mls_back + .cf7mls_next + .cf7mls_progress_bar_percent_wrap {
-    width: 100%
+    width: 100%;
 }
 
 .cf7mls-btns .cf7mls_back + .cf7mls_progress_bar_percent_wrap, .cf7mls-btns .cf7mls_next + .cf7mls_progress_bar_percent_wrap {
-    width: 100%
+    width: 100%;
 }
 
 .cf7mls_progress_bar_percent_wrap .cf7mls_progress_bar_percent, .cf7mls_progress_bar_per_mobie_wrap .cf7mls_progress_bar_percent {
     box-shadow: 0 0 0 1px rgba(255, 255, 255, .2);
     height: 100%;
     margin: 0 auto;
-    width: 100%
+    width: 100%;
 }
 
 .cf7mls_progress_bar_percent_wrap .cf7mls_progress_percent, .cf7mls_progress_bar_per_mobie_wrap .cf7mls_progress_percent {
-    height: 8px
+    height: 8px;
 }
 
 .cf7mls_progress_bar_percent_wrap .cf7mls_progress_barinner, .cf7mls_progress_bar_per_mobie_wrap .cf7mls_progress_barinner {
     background: #0073aa;
     height: 100%;
-    width: 0%
+    width: 0%;
 }
 
 .cf7mls_progress_bar_percent_wrap .cf7mls_progress_percent {
@@ -7046,7 +7046,7 @@ form.wpcf7-form.cf7mls_reviewing:after {
     margin: 22px 0 8px;
     background: #EBEBEB;
     height: 5px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .cf7mls_progress_bar_percent_wrap p, .cf7mls_progress_bar_per_mobie_wrap p {
@@ -7059,13 +7059,13 @@ form.wpcf7-form.cf7mls_reviewing:after {
     color: #8f8f8f;
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .cf7mls_progress_bar_per_mobie_wrap {
     width: 100%;
     clear: both;
-    padding-top: 23px
+    padding-top: 23px;
 }
 
 .cf7mls_progress_bar_per_mobie_wrap .cf7mls_progress_percent {
@@ -7079,42 +7079,42 @@ form.wpcf7-form.cf7mls_reviewing:after {
 
 @media only screen and (max-width: 768px) {
     .cf7mls_progress_bar {
-        display: none
+        display: none;
     }
 
     .cf7mls_number_step_wrap {
         display: block;
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     #cf7mls-progress-bar .cf7mls_progress_bar_per_mobie_wrap {
-        display: block
+        display: block;
     }
 
     #cf7mls-progress-bar .cf7mls_progress_bar_percent_wrap {
-        display: none
+        display: none;
     }
 
     .fieldset-cf7mls .cf7mls_progress_bar_percent_wrap {
-        width: 100%
+        width: 100%;
     }
 
     .cf7mls-btns .cf7mls_back + .cf7mls_next + .cf7mls_progress_bar_percent_wrap {
-        width: 100%
+        width: 100%;
     }
 
     .cf7mls-btns .cf7mls_back + .cf7mls_progress_bar_percent_wrap, .cf7mls-btns .cf7mls_next + .cf7mls_progress_bar_percent_wrap {
-        width: 100%
+        width: 100%;
     }
 
     .cf7mls-btns {
-        overflow: hidden
+        overflow: hidden;
     }
 }
 
 .cf7mls_progress_bar .cf7_mls_steps_item .cf7_mls_steps_item_content {
-    cursor: pointer
+    cursor: pointer;
 }
 
 #cf7mls_progress_bar.cf7mls_bar_style_horizontal_squaren li.cf7_mls_steps_item:nth-child(2)::after {
@@ -7136,11 +7136,11 @@ form.wpcf7-form.cf7mls_reviewing:after {
 }
 
 #cf7mls_progress_bar li.cf7mls_active_line::after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_round.cf7mls_bar_style_text_no li:nth-child(1) .cf7mls_progress_bar_title.cf7mls_active_line:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_squaren.cf7mls_bar_style_text_no li:nth-child(1) .cf7mls_progress_bar_title.cf7mls_active_line:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_round.cf7mls_bar_style_text_horizontal li:nth-child(1) .cf7mls_progress_bar_title.cf7mls_active_line:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_squaren.cf7mls_bar_style_text_horizontal li:nth-child(1) .cf7mls_progress_bar_title.cf7mls_active_line:after, #cf7mls_progress_bar.cf7mls_bar_style_horizontal_squaren.cf7mls_bar_style_text_horizontal li.cf7mls_active_line:before, #cf7mls_progress_bar.cf7mls_bar_style_horizontal_round.cf7mls_bar_style_text_horizontal li.cf7mls_active_line:before {
-    width: 0 !important
+    width: 0 !important;
 }
 
 #cf7mls_progress_bar li.cf7_mls_steps_item_none::after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_round.cf7mls_bar_style_text_no li:nth-child(1) .cf7mls_progress_bar_title.cf7_mls_steps_item_none:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_squaren.cf7mls_bar_style_text_no li:nth-child(1) .cf7mls_progress_bar_title.cf7_mls_steps_item_none:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_round.cf7mls_bar_style_text_horizontal li:nth-child(1) .cf7mls_progress_bar_title.cf7_mls_steps_item_none:after, #cf7mls_progress_bar.cf7mls_bar_style_navigation_horizontal_squaren.cf7mls_bar_style_text_horizontal li:nth-child(1) .cf7mls_progress_bar_title.cf7_mls_steps_item_none:after, #cf7mls_progress_bar.cf7mls_bar_style_horizontal_squaren.cf7mls_bar_style_text_horizontal li.cf7_mls_steps_item_none:nth-child(2):before, #cf7mls_progress_bar.cf7mls_bar_style_horizontal_round.cf7mls_bar_style_text_horizontal li.cf7_mls_steps_item_none:nth-child(2):before {
-    display: none
+    display: none;
 }
 
 .slick-slider {
@@ -7173,7 +7173,7 @@ form.wpcf7-form.cf7mls_reviewing:after {
 
 .slick-list.dragging {
     cursor: pointer;
-    cursor: hand
+    cursor: hand;
 }
 
 .slick-slider .slick-track, .slick-slider .slick-list {
@@ -7195,11 +7195,11 @@ form.wpcf7-form.cf7mls_reviewing:after {
 
 .slick-track:before, .slick-track:after {
     display: table;
-    content: ''
+    content: '';
 }
 
 .slick-track:after {
-    clear: both
+    clear: both;
 }
 
 .slick-loading .slick-track {
@@ -7210,41 +7210,41 @@ form.wpcf7-form.cf7mls_reviewing:after {
     display: none;
     float: left;
     height: 100%;
-    min-height: 1px
+    min-height: 1px;
 }
 
 [dir='rtl'] .slick-slide {
-    float: right
+    float: right;
 }
 
 .slick-slide img {
-    display: block
+    display: block;
 }
 
 .slick-slide.slick-loading img {
-    display: none
+    display: none;
 }
 
 .slick-slide.dragging img {
-    pointer-events: none
+    pointer-events: none;
 }
 
 .slick-initialized .slick-slide {
-    display: block
+    display: block;
 }
 
 .slick-loading .slick-slide {
-    visibility: hidden
+    visibility: hidden;
 }
 
 .slick-vertical .slick-slide {
     display: block;
     height: auto;
-    border: 1px solid transparent
+    border: 1px solid transparent;
 }
 
 .slick-arrow.slick-hidden {
-    display: none
+    display: none;
 }
 
 /*! jQuery UI - v1.13.2 - 2022-10-13
@@ -8198,28 +8198,28 @@ body.compensate-for-scrollbar {
     right: 0;
     top: 0;
     transition: all .2s cubic-bezier(.25, .46, .45, .94);
-    z-index: 99991
+    z-index: 99991;
 }
 
 .fancybox-thumbs__list a:focus:before {
-    opacity: .5
+    opacity: .5;
 }
 
 .fancybox-thumbs__list a.fancybox-thumbs-active:before {
-    opacity: 1
+    opacity: 1;
 }
 
 @media (max-width: 576px) {
     .fancybox-thumbs {
-        width: 110px
+        width: 110px;
     }
 
     .fancybox-show-thumbs .fancybox-inner {
-        right: 110px
+        right: 110px;
     }
 
     .fancybox-thumbs__list a {
-        max-width: calc(100% - 10px)
+        max-width: calc(100% - 10px);
     }
 }
 
@@ -18434,7 +18434,28 @@ button.cf7mls_next {
 .order-project-new .wpcf7-form {
     overflow: visible
 }
-
+.about-galery{
+    margin-top: 35px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(165px,1fr));
+    gap: 15px;
+}
+.about-galery-container .more{
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px auto;
+    padding: 15px 35px ;
+    color: #fff;
+    background-color: #FF8400;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Muller',  Arial, sans-serif;
+}
+.section-big-margin.galery{
+    display: none;
+}
 @media screen and (min-width: 641px) {
     .select-project-left {
         width: 45%
@@ -18442,6 +18463,20 @@ button.cf7mls_next {
 
     .select-project-right {
         width: 55%
+    }
+}
+@media screen and (max-width: 425px) {
+    .h1{
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+    .section-big-margin.galery{
+        display:block;
+        margin: 0 10px;
+    }
+    .about-galery .about-galery img{
+        border-radius: 8px;
     }
 }
 
