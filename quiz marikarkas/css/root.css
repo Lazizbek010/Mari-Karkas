@@ -60,6 +60,9 @@ img.emoji {
     --accent-color: #6c7a6e;
     --accent-color-rgb: 108, 122, 110;
     --darker-color-rgb: rgb(86, 97, 88);
+    /* litech colors */
+    --success-color-btn: #007445;
+    --orange-color-btn: #FF8400;
 }
 
 .first-screen__bg::after {
